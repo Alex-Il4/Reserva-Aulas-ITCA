@@ -8,6 +8,8 @@ package exceptions;
  *
  * @author alex
  */
-public class ReglaReservaException {
-    
+public class ReglaReservaException extends RuntimeException {
+    public ReglaReservaException(String mensaje) {
+        super(mensaje);
+    }
 }

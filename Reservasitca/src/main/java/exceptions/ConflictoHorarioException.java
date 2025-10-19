@@ -8,6 +8,8 @@ package exceptions;
  *
  * @author alex
  */
-public class ConflictoHorarioException {
-    
+public class ConflictoHorarioException extends RuntimeException {
+    public ConflictoHorarioException(String mensaje) {
+        super(mensaje);
+    }
 }
