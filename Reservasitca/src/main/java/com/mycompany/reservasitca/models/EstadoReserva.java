@@ -8,6 +8,8 @@ package com.mycompany.reservasitca.models;
  *
  * @author alex
  */
-public class EstadoReserva {
-    
+public enum EstadoReserva {
+    ACTIVA,
+    CANCELADA,
+    HISTORICA
 }

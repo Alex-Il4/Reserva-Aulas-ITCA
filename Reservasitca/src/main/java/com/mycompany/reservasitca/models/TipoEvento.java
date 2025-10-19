@@ -8,6 +8,8 @@ package com.mycompany.reservasitca.models;
  *
  * @author alex
  */
-public class TipoEvento {
-    
+public enum TipoEvento {
+    CONFERENCIA,
+    TALLER,
+    REUNION
 }
