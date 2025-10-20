@@ -48,6 +48,7 @@ public abstract class Reserva {
     public String getResponsable() { return responsable; }
     public EstadoReserva getEstado() { return estado; }
 
+    public void setId(String id) {this.id = id;}
     public void setEstado(EstadoReserva estado) { this.estado = estado; }
     public void setResponsable(String responsable) { this.responsable = responsable; }
     public void setHoraInicio(LocalTime horaInicio) { this.horaInicio = horaInicio; }
